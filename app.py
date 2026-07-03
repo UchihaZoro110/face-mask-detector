@@ -7,7 +7,7 @@ import gdown
 
 if not os.path.exists("final_pca.pkl"):
     url = "https://drive.google.com/uc?id=1iQC7AjGBjbgCdtzp5K6D6IW2bbgSlReL"
-    gdown.download(url, "final_pca.pkl", quiet=False, fuzzy=True)
+    gdown.download(url, "final_pca.pkl", quiet=False)
 
 model = joblib.load("final_model.pkl")
 pca = joblib.load("final_pca.pkl")
