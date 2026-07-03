@@ -1,6 +1,6 @@
 streamlit
 joblib
-numpy
+numpy<2
 opencv-python-headless
 gdown
 scikit-learn==1.2.2
