@@ -1,0 +1,6 @@
+streamlit
+joblib
+numpy
+opencv-python-headless
+gdown
+scikit-learn==1.2.2
