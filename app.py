@@ -14,6 +14,7 @@ pca = joblib.load("final_pca.pkl")
 
 st.title("Face Mask Detector")
 st.write("Upload an image to check whether the person is wearing a mask or not!")
+st.info("📌 Note: For best results, please upload a cropped, close-up photo of the face (ideally square-shaped). If the prediction seems incorrect, try cropping the image closer to the face before uploading.")
 
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
 
